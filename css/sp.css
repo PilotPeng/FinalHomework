@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.title{
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 10px 10%;
+	background: darkslateblue;
+}
+#main{
+	width: 100%;
+	height: 360px;
+	box-sizing: border-box;
+	padding: 20px 10%;
+}
+#main .img{
+	float: left;
+	width: 30%;
+	height: 300px;
+	border: #eee 1px solid;
+	padding: 20px 0;
+	text-align: center;
+	margin-right: 50px;
+}
+#main .img img{
+	height: 300px;
+}
+#main .text{
+	float: left;
+	width: 50%;
+}
+#main .text h2{
+	margin: 10px 0 30px;
+}
+#main .text .from{
+	color: midnightblue;
+	display: block;
+	margin: 10px 0;
+}
+#main .text .content{
+	color: #aaa;
+	display: block;
+	margin: 10px 0 80px;
+}
+#main .text .time span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 1.5rem;
+	line-height: 30px;
+	margin: 1px;
+	color: white;
+	text-align: center;
+	background: red;
+}
+#main .text .bottom{
+	font-size: 1.3rem;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 25px;
+}
+#main .text .bottom .price{
+	background: cornflowerblue;
+	color: white;
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	text-align: center;
+}
+#main .text .bottom .buy{
+	background: #ddd;
+	color: #666;
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	left: -10px;
+}

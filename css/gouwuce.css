@@ -1,0 +1,132 @@
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.div1{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../img/daojucheng.png) no-repeat 0 center;
+}
+.sousuo{
+    width: 300px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 5px;
+    border: 1.5px solid #f50;
+    box-sizing: border-box;
+}
+.sousuo:focus{
+    outline: none;
+}
+.sousuo_btn{
+    float: left;
+    width: 90px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    background-color: #ff4400;
+    margin-right: 10px;
+}
+.div1 span{
+    margin-left: 185px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.div2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1.5px solid #eee;
+}
+.div2 ul li{
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 15px;
+    border-right: 1px solid #EEE;
+}
+.div2 li a{
+    color: #3c3c3c;
+}
+.div2 li a span{
+    color: #f40;
+}
+.div2>div div {
+    float: left;
+}
+.div2>div div span{
+    margin-right: 5px;
+    color: #f40;
+}
+.div2>div a{
+    display:block;
+    width: 55px;
+    border-radius: 2px;
+    text-align: center;
+    background: #aaa;
+    color: #fff;
+    float: left;
+}
+.list{
+    margin-top: 20px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border: 1.5px solid #eee;
+    padding: 10px 15px 0 15px;
+    color: #3c3c3c;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.item>div:nth-child(2){
+    width: 277px;
+}
+.item>div:nth-child(3){
+    width: 120px;
+}
+.item img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #EEE;
+}
+.item a{
+    color: #3c3c3c;
+}
+.item a:hover{
+    text-decoration: underline;
+    color: #f40;
+}
+.list-foot{
+    width: 100%;
+    height: 50px;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-foot li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list-foot span{
+    color: #f40;
+}
+.list-foot button{
+    width: 100px;
+}
+
+#prodyctList button{
+    width: 20px;
+}

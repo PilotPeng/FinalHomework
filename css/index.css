@@ -1,0 +1,387 @@
+body{
+	background: #eee;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.body{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+.title{
+	overflow: hidden;
+}
+.title .left{
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+.title .left img{
+	margin: 0 auto;
+}
+.title .right{
+	width: 70%;
+	float: left;
+}
+.title .right input{
+	width: 60%;
+	margin-top: 10px;
+	height: 30px;
+	border-radius: 20px 0 0 20px;
+	padding: 0 10px;
+	border: black solid 2px;
+}
+.title .right button{
+	width: 7%;
+	height: 34px;
+	position: relative;
+	left: -10px;
+	border-radius: 0 20px 20px 0;
+	border: 0;
+	background: #FF0000;
+	color: white;
+}
+.top{
+	overflow: hidden;
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	font-size: 1.1rem;
+	line-height: 40px;
+	color: white;
+}
+.top .left{
+	width: 20%;
+	text-align: center;
+	float: left;
+	background: #666;
+}
+.top .right{
+	width: 80%;
+	float: left;
+	background: linear-gradient(to right,#999999,#666);
+}
+.top .right ul{
+	overflow: hidden;
+}
+.top .right ul li{
+	list-style: none;
+	width: 14%;
+	float: left;
+	text-align: center;
+}
+.top .right ul li:hover :before{
+	content: "●";
+}
+.top .right ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.main{
+	height: 421px;
+}
+.main .left{
+	width: 20%;
+	box-sizing: border-box;
+	border: #FF0000 1px solid;
+	border-top: 0;
+	text-align: center;
+	float: left;
+}
+.main .left ul{
+	position: relative;
+}
+.main .left ul li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+}
+.main .left ul li .content .content-left{
+	width: 70%;
+	overflow: hidden;
+	float: left;
+	border-right: #999999 1px solid;
+}
+.main .left ul li .content .content-left .type{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+.main .left ul li .content .content-right{
+	width: 29%;
+	box-sizing: border-box;
+	float: right;
+}
+.main .left ul li .content .content-right h3{
+	width: 100%;
+	text-align: center;
+}
+.main .left ul li .content .content-right dl{
+	float: left;
+	width: 50%;
+	height: 180px;
+}
+.main .left ul li .content .content-right dl dt,.main .left ul li .content .content-right dl dd{
+	width: 100%;
+}
+.main .left ul li .content .content-right dl dt img{
+	height: 90px;
+}
+.main .left ul li .content{
+	width: 302%;
+	padding: 10px;
+	height: 421px;
+	box-sizing: border-box;
+	position: absolute;
+	display: none;
+	left: 100%;
+	top: 0;
+	background: #EEEEEE;
+}
+.main .left ul li .content h3{
+	text-align: left;
+	float: left;
+	margin-left: 2px;
+}
+.main .left ul li .content a{
+	color: #666;
+	text-decoration: none;
+	font-size: 0.8rem;
+	display: inline-block;
+	float: left;
+	margin: 1px 5px;
+}
+.main .left ul li .content #gd{
+	float: right;
+	line-height: 30px;
+}
+.main .left ul li:hover{
+	background: rgba(255,0,0,0.3);
+}
+.main .left ul li:hover>a{
+	color: red;
+}
+.main .left ul li:hover .content{
+	display: inline-block;
+}
+.main .left ul li>a{
+	text-decoration: none;
+	color: black;
+	color: #999999;
+	display: inline-block;
+	width: 100%;
+}
+.main .center{
+	float: left;
+	width: 60%;
+}
+.main .center .banner{
+	box-sizing: border-box;
+	padding: 3px;
+}
+.main .center .banner .img1{
+	width: 75%;
+}
+.main .center .banner .img2{
+	width: 23.4%;
+	float: right;
+}
+.main .center .link{
+	padding: 2px;
+}
+.main .center .link ul li{
+	width: 25%;
+	list-style: none;
+	float: left;
+	border: #ccc 1px solid;
+	padding: 7px 10px;
+	box-sizing: border-box;
+}
+.main .center .link ul li img{
+	width: 100%;
+}
+.main .right{
+	float: right;
+	width: 20%;
+	height: 100%;
+}
+.main .right .top{
+	width: 100%;
+	height: 50%;
+	color: #000000;
+	text-align: center;
+}
+.main .right .top img{
+	border-radius: 50%;
+}
+.main .right .top button{
+	width: 25%;
+	height: 27px;
+	background: #FF5000;
+	border-radius: 5px;
+	border: 0;
+}
+.main .right .top button a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	line-height: 27px;
+}
+.main .right .top .div{
+	overflow: hidden;
+}
+.main .right .top .div a{
+	text-decoration: none;
+	font-size: 0.8rem;
+	display: inline-block;
+	border-radius: 15px;
+	width: 44%;
+	height: 30px;
+	line-height: 10px;
+	background: #FF8500;
+}
+.main .right .top .div a .jinbi{
+	background: url(../img/icon.png) no-repeat;
+	background-position: 0px -570px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+.main .right .top .div a .vip{
+	background: url(../img/icon.png) no-repeat;
+	background-position: 0px -525px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+.main .right .buttom{
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+}
+.main .right .buttom ul{
+	overflow: hidden;
+}
+.main .right .buttom ul li{
+	list-style: none;
+	width: 25%;
+	height: 100.4px;
+	text-align: center;
+	float: left;
+	border: #AAAAAA 0.1px solid;
+	box-sizing: border-box;
+}
+.main .right .buttom ul li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.main .right .buttom ul li:hover a{
+	color: red;
+}
+.main .right .buttom ul li span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 25px auto 15px;
+	background: url(../img/icon.png) no-repeat;
+	background-position-x: 50%;
+}
+.main .right .buttom ul li:nth-child(1) span{
+	background-position-y: 4px;
+}
+.main .right .buttom ul li:nth-child(2) span{
+	background-position-y: -84px;
+}
+.main .right .buttom ul li:nth-child(3) span{
+	background-position-y: -40px;
+}
+.main .right .buttom ul li:nth-child(4) span{
+	background-position-y: -127px;
+}
+.main .right .buttom ul li:nth-child(5) span{
+	background-position-y: -170px;
+}
+.main .right .buttom ul li:nth-child(6) span{
+	background-position-y: -215px;
+}
+.main .right .buttom ul li:nth-child(7) span{
+	background-position-y: -260px;
+}
+.main .right .buttom ul li:nth-child(8) span{
+	background-position-y: -303px;
+}
+.main .right .buttom ul li a{
+	text-decoration: none;
+	color: black;
+}
+.body>.buttom{
+	overflow: hidden;
+}
+.buttom .left{
+	width: 49%;
+	float: left;
+	box-sizing: border-box;
+	padding: 1%;
+}
+.buttom div .title span{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 0.8rem;
+	position: relative;
+	top: -8px;
+	left: 20px;
+	color: #999;
+}
+.buttom div .title img{
+	height: 25px;
+}
+.buttom div .content{
+	overflow: hidden;
+	text-align: center;
+}
+.buttom div .content dl{
+	width: 31.3%;
+	margin: 1%;
+	float: left;
+}
+.buttom div .content dl a{
+	text-decoration: none;
+	color: #000000;
+}
+.buttom div .content dl a dd h4{
+	color: #000000;
+}
+.buttom div .content dl:hover h4{
+	color: red;
+}
+.buttom div .content dl dt,.buttom div .content dd{
+	width: 100%;
+	color: #aaa;
+	font-size: 0.8rem;
+}
+.buttom div .content dl dt img{
+	width: 100%;
+}
+.buttom .right{
+	width: 49%;
+	float: right;
+	box-sizing: border-box;
+	padding: 1%;
+}
+.buttom .right .content dl:hover dd{
+	color: red;
+}
